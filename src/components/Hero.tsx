@@ -18,11 +18,11 @@ export default function Hero() {
             explicabo qui consequuntur?
           </p>
           <span className="flex items-center gap-6">
-            <button className="flex items-center gap-3 rounded bg-slate-900 px-6 py-3 font-medium capitalize text-slate-100 transition-all lg:hover:gap-6 lg:focus:gap-6">
+            <button className="flex items-center gap-3 rounded bg-slate-950 px-6 py-3 font-medium capitalize text-slate-100 transition-all lg:hover:gap-6 lg:focus:gap-6 lg:focus:outline-none">
               <span>get started</span>
               <IconArrowNarrowRight stroke={1} />
             </button>
-            <button className="flex items-center gap-3 rounded px-6 py-3 font-medium capitalize transition-all lg:hover:gap-6 lg:focus:gap-6">
+            <button className="flex items-center gap-3 rounded px-6 py-3 font-medium capitalize transition-all lg:hover:gap-6 lg:focus:gap-6 lg:focus:outline-none lg:focus:ring-1 lg:focus:ring-black">
               <IconPlayerPlayFilled className="rounded-full p-1 ring-1 ring-black" />
               <span>watch video</span>
             </button>

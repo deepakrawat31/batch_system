@@ -91,7 +91,7 @@ export default function Testimonials() {
               <button
                 key={user.id}
                 onClick={() => setSelectedUser(user.id)}
-                className={`rounded-full border-2 border-black bg-slate-200 p-2 transition-opacity hover:opacity-100 ${selectedUser === user.id ? "" : "opacity-40"}`}
+                className={`rounded-full border-2 border-black bg-slate-200 p-2 lg:transition-opacity lg:hover:opacity-100 lg:focus:opacity-100 lg:focus:outline-none ${selectedUser === user.id ? "" : "opacity-40"}`}
               >
                 <IconUser />
               </button>
