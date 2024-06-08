@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Phones() {
   return (
-    <section className="p-4">
+    <section className="p-4" id="pricing">
       <div className="relative isolate mx-auto flex min-h-64 w-full max-w-6xl flex-col items-start justify-center gap-4 overflow-hidden rounded-md bg-slate-950 px-4 py-4 text-slate-100 lg:min-h-80 lg:px-20">
         <h2 className="text-5xl font-bold capitalize">ready to get started?</h2>
         <p className="w-full max-w-lg font-medium text-slate-100/60">
