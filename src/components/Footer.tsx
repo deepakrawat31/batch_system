@@ -106,7 +106,7 @@ export default function Footer() {
               name="mail"
               id="mail"
               placeholder="enter your email"
-              className="h-full w-full max-w-40 rounded bg-slate-200 p-2 font-medium outline-none ring-black placeholder:text-sm placeholder:capitalize placeholder:text-black/40 focus:ring-1"
+              className="h-full w-full max-w-40 rounded bg-slate-200 p-2 font-medium outline-none placeholder:text-sm placeholder:capitalize placeholder:text-black/40 hover:ring-1 hover:ring-black focus:ring-1 focus:ring-black"
             />
             <button className="rounded bg-slate-950 p-4 capitalize text-slate-100 transition-transform hover:scale-90 focus:scale-90 focus:outline-none">
               subscribe

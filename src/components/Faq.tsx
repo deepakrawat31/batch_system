@@ -13,7 +13,7 @@ export default function Faq() {
           alt="star"
           height={40}
           width={40}
-          className="absolute bottom-0 right-40 rotate-45"
+          className="absolute bottom-10 right-8 rotate-45 lg:bottom-0 lg:right-40"
         />
       </div>
       <div className="grid grid-flow-row grid-cols-1 gap-4 lg:grid-cols-2">

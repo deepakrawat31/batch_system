@@ -87,7 +87,7 @@ export default function Advantages() {
         alt="star"
         height={48}
         width={48}
-        className="absolute right-20 top-12"
+        className="absolute right-8 top-12 lg:right-20"
       />
       <Image
         src={"/star.png"}

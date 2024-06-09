@@ -17,7 +17,7 @@ export default function Hero() {
             veritatis dolores at ipsum error architecto eveniet aperiam
             explicabo qui consequuntur?
           </p>
-          <span className="flex flex-col items-center gap-6 lg:flex-row">
+          <span className="flex flex-col items-start gap-6 lg:flex-row lg:items-center">
             <button className="flex items-center gap-3 rounded bg-slate-950 px-6 py-3 font-medium capitalize text-slate-100 transition-all lg:hover:gap-6 lg:focus:gap-6 lg:focus:outline-none">
               <span>get started</span>
               <IconArrowNarrowRight stroke={1} />
